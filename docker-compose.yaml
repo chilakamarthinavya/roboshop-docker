@@ -16,7 +16,7 @@ services:
   redis:
     image: redis:7.0
     container_name: redis
-  catalogue:
+  user:
     image: chilakamarthinavya/user:v1
     container_name: user
     depends_on:
