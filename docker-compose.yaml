@@ -61,7 +61,7 @@ services:
   frontend:
     image: chilakamarthinavya/frontend:v1
     container_name: frontend
-    ports:
+    ports: 
     - "80:80"
     depends_on:
     - catalogue
