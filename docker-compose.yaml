@@ -42,7 +42,7 @@ services:
     container_name: rabbitmq
     environment:
       RABBITMQ_DEFAULT_USER: roboshop
-      RABBITMQ_DEFAULT_PASS: robosop123
+      RABBITMQ_DEFAULT_PASS: roboshop123
   payment:
     image: chilakamarthinavya/payment:v1
     container_name: payment
